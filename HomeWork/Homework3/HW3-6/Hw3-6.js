@@ -26,7 +26,6 @@ for (const product of products) {
     const IMAGE = product.image;
     document.write(`
      <div class=”product-card”>
-
         <h3 class=”product-title”> ${TITLE}. Price – ${PRICE}</h3>
         <img src="${IMAGE}" alt="">
        

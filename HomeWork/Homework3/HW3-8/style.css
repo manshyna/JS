@@ -1,0 +1,12 @@
+body{
+    margin:0;
+}
+.users-box {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    grid-template-rows: repeat(5, 300px);
+    justify-items: center;
+    justify-content: center;
+    background-color: rgba(218, 200, 230, 0.74);
+
+}
