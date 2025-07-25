@@ -3,12 +3,3 @@
 //     Кількість li визначається другим аргументом, який є числовим
 // (тут використовувати цикл) та виводить його через document.write
 
-function list(text, number) {
-    document.write('<ul>')
-    for (let i=0; i< number; i++) {
-        document.write(`<li>${text}</li>`);
-    }
-    document.write('<?ul>')
-}
-
-list( "gfdr", 20)
